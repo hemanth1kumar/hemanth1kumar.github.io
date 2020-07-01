@@ -24,6 +24,7 @@ nav {
 nav ul {
 	/*font-size: calc(0.5vw + 1vh + .5vmin);*/
 	list-style: none;
+	padding: 0;
 	display: flex;
 	justify-content: space-between;
 }
@@ -60,7 +61,7 @@ nav .active-link:hover, .active-link:focus{
 	font-weight: 700;
 }
 
-@media (max-width: 680px) {
+@media screen and (max-width: 870px) {
 	
 	header .site-title {
 		text-align: center;
